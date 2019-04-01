@@ -10,9 +10,9 @@ ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 #连接服务器
-ssh.connect(hostname='192.168.3.172', port=22, username='king7', password='1234567a')
+ssh.connect(hostname='v5.vc', port=22, username='king7', password='v5vc123')
 
-cmd = 'cat /etc/shadow'
+cmd = 'whoami'
 stdin, stdout, stderr = ssh.exec_command(cmd)
 
 result = stdout.read()
