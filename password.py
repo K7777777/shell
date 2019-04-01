@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
 #run result:SUlOQkREQlpWZE13b3l2VmxZMGlqRG9XNkF6YjZhZWFpV3c9S0RISERIV0tLTk5CQk9VMkZzZEdWa1gxOEI1WUpaTVhCQkNT
 
-#password=result:key
+#webpassword=result:key
 
 
 
