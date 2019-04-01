@@ -19,15 +19,15 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        if username =='king7' and password =='********':
-            return 'login success!'
+        if username =='king7' and password =='*******':
+            return redirect('*******')
         else:
             return 'username or password error!'
     else:
         return render_template('login.html')
     return render_template('login.html')
 
-@app.route('/myshell',methods=['GET','POST'])
+@app.route('/*********',methods=['GET','POST'])
 def myshell():
     if request.method == 'POST':
         cmd = request.form['cmd']
@@ -45,4 +45,4 @@ def myshell():
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0',port=5000)
+    app.run(host='0.0.0.0',port=5000)
